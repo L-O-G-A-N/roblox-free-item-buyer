@@ -201,4 +201,4 @@ def main() -> None:
     for name, product_id, in free_items.items():
         purchase(name, product_id)
 while True:
-main()
+ main()
