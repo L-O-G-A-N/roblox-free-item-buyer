@@ -200,5 +200,5 @@ def main() -> None:
     free_items = fetch_items()
     for name, product_id, in free_items.items():
         purchase(name, product_id)
-
+while True:
 main()
