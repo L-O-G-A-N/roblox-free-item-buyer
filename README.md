@@ -1,12 +1,12 @@
 hi
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 for packages ^^^^^^^
 
 if you want packages/characters open packages only.py
 
 in the almost every type of item file, when you are-
-- entering the catagories make sure you enter the number or it will not work.
+entering the catagories make sure you enter the number or it will not work.
 
 in packages only you will only have to put in your cookie.
 
