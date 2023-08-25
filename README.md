@@ -10,8 +10,8 @@ In the `ALMOST EVERY TYPE OF ITEM.py` file, when entering the categories, make s
   
 
 credits to: https://github.com/insaneinthamembrane/roblox-free-item-buyer
-for the base of this program
+For the base of this program
 
-everything else made by me (lfgan)
+Everything else made by me (lfgan)
 
-QOF changes by TomerGamerTV ;3
+QOL changes by TomerGamerTV ;3
