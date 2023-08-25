@@ -1,16 +1,16 @@
-hi
 
-- pip install -r requirements.txt
+Hi,
 
-for packages ^^^^^^^
+To install the required packages, please run the command `pip install -r requirements.txt`. This will install all the necessary packages listed in the file.
 
-if you want packages/characters open packages only.py
+If you want to access packages/characters, you can open the `PACKAGES ONLY.py` file.
 
-in the almost every type of item file, when you are-
-entering the catagories make sure you enter the number or it will not work.
+In the `ALMOST EVERY TYPE OF ITEM.py` file, when entering the categories, make sure to input the corresponding number, as it is required for proper functionality.
 
-in packages only you will only have to put in your cookie.
+  
 
 credits to: https://github.com/insaneinthamembrane/roblox-free-item-buyer
 for the base of this program
+
 everything else made by me (lfgan)
+QOF changes by TomerGamerTV ;3

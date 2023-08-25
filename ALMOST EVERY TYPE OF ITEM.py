@@ -122,7 +122,30 @@ i'm too lazy to explain these all but you can probably make out what most of the
 def cprint(color: str, content: str) -> None:
     console.print(f"[ [bold {color}]>[/] ] {content}")
 
-cookie = input("enter your cookie: ")
+COOKIE_FILE = "cookie.txt"  # File to store the user's cookie
+
+
+def save_cookie(cookie: str) -> None:
+    with open(COOKIE_FILE, "w") as f:
+        f.write(cookie)
+
+
+def load_cookie() -> str:
+    try:
+        with open(COOKIE_FILE, "r") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return ""
+
+
+def get_cookie() -> str:
+    cookie = load_cookie()
+    if not cookie:
+        cookie = input("Enter your cookie: ")
+        save_cookie(cookie)
+    return cookie
+
+cookie = get_cookie()
 os.system('cls')
 
 print(catagories)
@@ -131,7 +154,7 @@ os.system('cls')
 print(subcatagories)
 subcatagory = input("Enter the number from which subcatagory you would like to buy from: ")
 os.system('cls')
-print(f" Cookie: {cookie} \n Catagory: {catagory} \n Subcatagory: {subcatagory}")
+print(f" Cookie: [REDACTED] \n Catagory: {catagory} \n Subcatagory: {subcatagory}")
 print("starting in 10 seconds. restart if something looks wrong")
 time.sleep(10)
 os.system('cls')
@@ -200,5 +223,6 @@ def main() -> None:
     free_items = fetch_items()
     for name, product_id, in free_items.items():
         purchase(name, product_id)
+        time.sleep(15)
 while True:
  main()
