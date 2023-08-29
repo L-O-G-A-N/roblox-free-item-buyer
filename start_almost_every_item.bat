@@ -1,1 +1,1 @@
-python3 "ALMOST EVERY TYPE OF ITEM.py"
+python "ALMOST EVERY TYPE OF ITEM.py"

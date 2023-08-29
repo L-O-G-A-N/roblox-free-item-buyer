@@ -1,1 +1,1 @@
-python3 "PACKAGES ONLY.py"
+python "PACKAGES ONLY.py"
