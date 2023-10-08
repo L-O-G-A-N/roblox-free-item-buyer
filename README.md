@@ -14,4 +14,4 @@ For the base of this program
 
 Everything else made by me (lfgan)
 
-QOL changes by TomerGamerTV ;3
+"QOL changes by TomerGamerTV ;3"
